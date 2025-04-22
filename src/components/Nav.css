@@ -5,37 +5,46 @@
 */
 
 /*--- Nav Bar --- */
+    .Nav-container {
+        font-family: 'Segoe UI', sans-serif;
+    }
+    
     .Nav-bar {
-        background-color: rgb(48, 48, 48); 
+        background-color: rgb(48, 48, 48);
         padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
     .Nav-list {
-        list-style: none;
         display: flex;
+        flex-wrap: wrap;
+        list-style: none;
         gap: 2rem;
+        align-items: center;
         margin: 0;
         padding: 0;
-        align-items: center;
     }
     
-    .Nav-title{
-        color: white;
-        font-size: 1.5rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: color 0.3s ease;
-    
-    }
-
-    .Nav-item {
+    .Nav-title {
         color: rgb(211, 255, 109);
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    .Nav-item {
+        color: white;
         font-weight: 500;
         cursor: pointer;
-        transition: color 0.3s ease;
+        transition: color 0.3s ease, transform 0.2s ease;
+        margin-top: 10px;
     }
     
     .Nav-item:hover {
-        color: #ebebeb; 
+        color: rgb(211, 255, 109);
+        transform: scale(1.05);
     }
-    
+  
