@@ -50,3 +50,23 @@
         transform: scale(1.05);
     }
   
+
+/* --- Footer */
+    .Nav-footer {
+        background-color: rgb(48, 48, 48);
+        padding: 1.5rem 2rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    
+    .Nav-footer-text {
+        color: white;
+        font-size: 0.95rem;
+        letter-spacing: 0.5px;
+    }
+    
+    .brand-highlight {
+        color: rgb(211, 255, 109);
+        font-weight: 600;
+    }
+  
