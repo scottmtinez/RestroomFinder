@@ -44,6 +44,11 @@
         margin-top: 10px;
         text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     }
+
+    .link {
+        text-decoration: none;
+        color: white;
+    }   
     
     .Nav-item:hover {
         color: rgb(211, 255, 109);
