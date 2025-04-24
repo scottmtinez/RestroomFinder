@@ -8,8 +8,30 @@ function Home() {
                 *image*
             </div>
             
-            <div className='Home-'>
-                
+            <div className='Home-packages'>
+                <div className='Home-packages-item'>
+
+                </div>
+
+                <div className='Home-packages-item'>
+
+                </div>
+
+                <div className='Home-packages-item'>
+
+                </div>
+
+                <div className='Home-packages-item'>
+
+                </div>
+
+                <div className='Home-packages-item'>
+
+                </div>
+            </div>
+
+            <div className='Home-image'>
+                *image*
             </div>
         </div>
 
