@@ -1,28 +1,22 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import FindRestroom from './components/FindRestroom';
-import About from './components/About';
-import Contact from './components/Contact';
-import Account from './components/Account';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Nav.css';
 
-function App() {
+function Nav() {
   return (
-    <Router>
-      <div className="App">
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/find" element={<FindRestroom />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/account" element={<Account />} />
-        </Routes>
-      </div>
-      <footer className='Nav-footer'><p className='Nav-footer-text'>© 2023 Restroom Finder. All rights reserved.</p></footer>
-    </Router>
+    <div className="Nav-container">
+      <nav className="Nav-bar">
+        <ul className="Nav-list">
+          <li><h1 className="Nav-title">Restroom Finder</h1></li>
+          <li className="Nav-item"><Link to="/">Home</Link></li>
+          <li className="Nav-item"><Link to="/find">Find Restroom</Link></li>
+          <li className="Nav-item"><Link to="/about">About Us</Link></li>
+          <li className="Nav-item"><Link to="/contact">Contact Us</Link></li>
+          <li className="Nav-item"><Link to="/account">Account</Link></li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
-export default App;
+export default Nav;
