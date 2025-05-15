@@ -1,0 +1,55 @@
+/*
+    ---------------
+    --- Find.css --
+    ---------------
+*/
+
+/*--- --- */
+    .findrestroom-container {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .findrestroom-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .findrestroom-search {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .search-input {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    .search-button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .findrestroom-map {
+        height: 500px;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #e0e0e0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-placeholder {
+        font-size: 1.2rem;
+        color: #555;
+    }
