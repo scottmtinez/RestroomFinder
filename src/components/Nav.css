@@ -28,7 +28,8 @@
         margin: 0;
         padding: 0;
     }
-    
+
+/* --- Nav Title --- */
     .Nav-title {
         color: rgb(211, 255, 109);
         font-size: 1.8rem;
@@ -45,6 +46,7 @@
         text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     }
 
+/* --- Links --- */
     .link {
         text-decoration: none;
         color: white;
