@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Home() {
     const features = [
@@ -14,7 +16,8 @@ function Home() {
         <div className="home-container">
             {/* Hero Banner */}
             <section className="home-banner">
-                <img src="/assets/banner1.jpg" alt="Restroom Finder Banner" />
+                <img className="home-image"src="https://technopolis-group.com/wp-content/uploads/2021/05/ICC-COvid.jpeg" alt="Restroom Finder Banner" />
+                <div className='home-location-pin-icon'><i class="bi bi-geo-alt-fill"></i></div>
                 <div className="home-banner-text">
                     <h1>Find Clean & Nearby Restrooms</h1>
                     <p>Your go-to tool for public restroom navigation and cleanliness info.</p>
