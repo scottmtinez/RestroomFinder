@@ -4,7 +4,7 @@
     ---------------
 */
 
-/*--- Main Image --- */
+/*--- --- */
     .Home-image{
         width: 95%;
         height: 250px;
@@ -14,7 +14,6 @@
         margin-top: 15px;
     }
 
-/*--- Packages Container --- */
     .Home-packages{
         display: flex;
         justify-content: space-between;
@@ -31,4 +30,10 @@
         margin: auto;
         margin-top: 15px;
         margin: 5px;
+    }
+
+    .home-location-pin-icon{
+        color: red;
+        font-size: 20px;
+        margin-right: 5px;
     }
